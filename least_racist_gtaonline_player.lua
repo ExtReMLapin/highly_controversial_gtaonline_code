@@ -158,7 +158,7 @@ end)
 
 local tracked_blips = {}
 
-menu.action(menu.my_root(), "Mark backetball americans", {}, "", function()
+menu.action(menu.my_root(), "Mark bascketball americans", {}, "", function()
     local Melanins = rankMelanins()
 
     for k, blip in ipairs(tracked_blips) do
